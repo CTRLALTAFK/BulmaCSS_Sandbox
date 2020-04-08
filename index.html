@@ -21,15 +21,15 @@
           <h1 class="title is-1">Hello World</h1>
           <h2 class="subtitle is-2">Hello</h2>
           
-          <!-- Content -->
+<!-- Content -->
       <div class="block">
         <!-- just p = no padding, class=content adds padding,is-X = text size -->
         <p class="content is-small"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, cum!</p>
         <p class="content is-medium"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, cum!</p>
         <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, cum!</p>
       </div>
-      
-      <!-- Buttons -->
+    
+<!-- Buttons -->
       <div class="block">
         <button class="button is-white"> Button </button>
         <button class="button is-black"> Button </button>
@@ -66,19 +66,126 @@
         <a href="#" class="button is-loading">loading</a>
         <a href="#" class="button disabled">disabled</a>
       </div>
-    <!-- Boxes -->
-<div class="block">
-  <div class="box">
-    <h1 class="title">hello world</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, qui.</p>
+      
+<!-- Boxes -->
+    <div class="block">
+      <div class="box">
+        <h1 class="title">hello world</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, qui.</p>
+      </div>
+    </div>
+
+<!-- Notifications -->
+  <div class="block">
+  <div class="notification ">
+      <!--X-Button wont work, need to add own javascript  -->
+    <button class="delete"></button>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, excepturi.
   </div>
-</div>
+  <div class="notification is-primary">
+    <button class="delete"></button>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, excepturi.
+  </div>
+  <div class="notification is-info">
+    <button class="delete"></button>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, excepturi.
+  </div>
+  <div class="notification is-success">
+    <button class="delete"></button>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, excepturi.
+  </div>
+  <div class="notification is-danger">
+    <button class="delete"></button>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, excepturi.
+  </div>
+  </div>
+<!-- TAGS -->
+  <div class="block">
+    <!-- use this on like a blog post to add some tags -->
+    <span class="tag">Hello</span>
+    <span class="tag is-black">Black</span>
+    <span class="tag is-dark">Dark</span>
+    <span class="tag is-white">white</span>
+    <span class="tag is-light">light</span>
+    <span class="tag is-primary">primary</span>
+    <span class="tag is-info">info</span>
+    <span class="tag is-success is-small">success</span><!-- small is default size -->
+    <span class="tag is-warning is-medium">warning</span>
+    <span class="tag is-danger is-large">danger <button class="delete"> </button></span>
+  </div>
+  <!--Messages  -->
+    <div class="block">
+      <article class="message">
+        <div class="message-header">
+        <p>About Me</p>  
+        </div>
+        <div class="message-body"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, ullam! </div>
+      </article>
+      <article class="message is-primary">
+        <div class="message-header">
+        <p>About Me</p>  
+        </div>
+        <div class="message-body"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, ullam! </div>
+      </article>
+      <article class="message is-success">
+        <div class="message-header">
+        <p>About Me</p>  
+        </div>
+        <div class="message-body"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, ullam! </div>
+      </article>
+      <article class="message is-info">
+        <div class="message-header">
+        <p>About Me</p>  
+        </div>
+        <div class="message-body"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, ullam! </div>
+      </article>
+      <article class="message is-warning">
+        <div class="message-header">
+        <p>About Me</p>  
+        </div>
+        <div class="message-body"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, ullam! </div>
+      </article>
+      <article class="message is-danger">
+        <div class="message-header">
+        <p>About Me</p>  
+        </div>
+        <div class="message-body"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, ullam! </div>
+      </article>
+    </div>
 
+    <!-- NAV BAR -->
+    <div class="block">
+      <!-- nav.nav(tab) = shortcut -->
+      <nav class="nav">
+        <!-- .nav-left(tab) -->
+        <div class="nav-left">
+          <a href="#" class="nav-item">
+           <h1 class="title is-4">David Jackson</h1> <!-- brand or logo -->
+          </a>
+        </div>
+        <div class="nav-center">
+          <a href="#" class="nav-item">
+            <span class="icon">
+              <!-- i.fa.fa-github (tab) FONT AWESOME tag names -->
+              <i class="fa fa-github"></i>
+            </span> 
+            <a href="#" class="nav-item">
+              <span class="icon">
+                <i class="fa fa-twitter"></i>
+              </span> 
+          </a>
+        </div>
+        <div class="nav-right nav-menu">
+          <a href="#" class="nav-item"></a>
+          <a href="#" class="nav-item"></a>
+          <a href="#" class="nav-item"></a>
+          <a href="#" class="nav-item"></a>
+        </div>
+      </nav>
+    </div>
 
-
-
-      <!-- creates margin below so pushes everything up to the middle of screen when window is small -->
-  <div class="style margin-top:500px"></div>
+    <!-- creates margin below so pushes everything up to the middle of screen -->
+  <div style="margin-top:500px"></div>
       </div>  
   </body>
   </html>
